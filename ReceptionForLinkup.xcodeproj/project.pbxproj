@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D4539C328A3B60F00B4686E /* ReceptionForLinkupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539C228A3B60F00B4686E /* ReceptionForLinkupApp.swift */; };
+		4D4539C528A3B60F00B4686E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539C428A3B60F00B4686E /* ContentView.swift */; };
+		4D4539C728A3B61200B4686E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4539C628A3B61200B4686E /* Assets.xcassets */; };
+		4D4539CA28A3B61200B4686E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4539C928A3B61200B4686E /* Preview Assets.xcassets */; };
+		4D4539D428A3B61300B4686E /* ReceptionForLinkupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539D328A3B61300B4686E /* ReceptionForLinkupTests.swift */; };
+		4D4539DE28A3B61300B4686E /* ReceptionForLinkupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539DD28A3B61300B4686E /* ReceptionForLinkupUITests.swift */; };
+		4D4539E028A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539DF28A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D4539D028A3B61300B4686E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D4539B728A3B60F00B4686E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4539BE28A3B60F00B4686E;
+			remoteInfo = ReceptionForLinkup;
+		};
+		4D4539DA28A3B61300B4686E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D4539B728A3B60F00B4686E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4539BE28A3B60F00B4686E;
+			remoteInfo = ReceptionForLinkup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D4539BF28A3B60F00B4686E /* ReceptionForLinkup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceptionForLinkup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4539C228A3B60F00B4686E /* ReceptionForLinkupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupApp.swift; sourceTree = "<group>"; };
+		4D4539C428A3B60F00B4686E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D4539C628A3B61200B4686E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D4539C928A3B61200B4686E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D4539CF28A3B61300B4686E /* ReceptionForLinkupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptionForLinkupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4539D328A3B61300B4686E /* ReceptionForLinkupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupTests.swift; sourceTree = "<group>"; };
+		4D4539D928A3B61300B4686E /* ReceptionForLinkupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptionForLinkupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4539DD28A3B61300B4686E /* ReceptionForLinkupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupUITests.swift; sourceTree = "<group>"; };
+		4D4539DF28A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D4539BC28A3B60F00B4686E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4539CC28A3B61300B4686E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4539D628A3B61300B4686E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D4539B628A3B60F00B4686E = {
+			isa = PBXGroup;
+			children = (
+				4D4539C128A3B60F00B4686E /* ReceptionForLinkup */,
+				4D4539D228A3B61300B4686E /* ReceptionForLinkupTests */,
+				4D4539DC28A3B61300B4686E /* ReceptionForLinkupUITests */,
+				4D4539C028A3B60F00B4686E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D4539C028A3B60F00B4686E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539BF28A3B60F00B4686E /* ReceptionForLinkup.app */,
+				4D4539CF28A3B61300B4686E /* ReceptionForLinkupTests.xctest */,
+				4D4539D928A3B61300B4686E /* ReceptionForLinkupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D4539C128A3B60F00B4686E /* ReceptionForLinkup */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539C228A3B60F00B4686E /* ReceptionForLinkupApp.swift */,
+				4D4539C428A3B60F00B4686E /* ContentView.swift */,
+				4D4539C628A3B61200B4686E /* Assets.xcassets */,
+				4D4539C828A3B61200B4686E /* Preview Content */,
+			);
+			path = ReceptionForLinkup;
+			sourceTree = "<group>";
+		};
+		4D4539C828A3B61200B4686E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539C928A3B61200B4686E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D4539D228A3B61300B4686E /* ReceptionForLinkupTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539D328A3B61300B4686E /* ReceptionForLinkupTests.swift */,
+			);
+			path = ReceptionForLinkupTests;
+			sourceTree = "<group>";
+		};
+		4D4539DC28A3B61300B4686E /* ReceptionForLinkupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539DD28A3B61300B4686E /* ReceptionForLinkupUITests.swift */,
+				4D4539DF28A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift */,
+			);
+			path = ReceptionForLinkupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D4539BE28A3B60F00B4686E /* ReceptionForLinkup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4539E328A3B61300B4686E /* Build configuration list for PBXNativeTarget "ReceptionForLinkup" */;
+			buildPhases = (
+				4D4539BB28A3B60F00B4686E /* Sources */,
+				4D4539BC28A3B60F00B4686E /* Frameworks */,
+				4D4539BD28A3B60F00B4686E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReceptionForLinkup;
+			productName = ReceptionForLinkup;
+			productReference = 4D4539BF28A3B60F00B4686E /* ReceptionForLinkup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D4539CE28A3B61300B4686E /* ReceptionForLinkupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4539E628A3B61300B4686E /* Build configuration list for PBXNativeTarget "ReceptionForLinkupTests" */;
+			buildPhases = (
+				4D4539CB28A3B61300B4686E /* Sources */,
+				4D4539CC28A3B61300B4686E /* Frameworks */,
+				4D4539CD28A3B61300B4686E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D4539D128A3B61300B4686E /* PBXTargetDependency */,
+			);
+			name = ReceptionForLinkupTests;
+			productName = ReceptionForLinkupTests;
+			productReference = 4D4539CF28A3B61300B4686E /* ReceptionForLinkupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D4539D828A3B61300B4686E /* ReceptionForLinkupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4539E928A3B61300B4686E /* Build configuration list for PBXNativeTarget "ReceptionForLinkupUITests" */;
+			buildPhases = (
+				4D4539D528A3B61300B4686E /* Sources */,
+				4D4539D628A3B61300B4686E /* Frameworks */,
+				4D4539D728A3B61300B4686E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D4539DB28A3B61300B4686E /* PBXTargetDependency */,
+			);
+			name = ReceptionForLinkupUITests;
+			productName = ReceptionForLinkupUITests;
+			productReference = 4D4539D928A3B61300B4686E /* ReceptionForLinkupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D4539B728A3B60F00B4686E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4D4539BE28A3B60F00B4686E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4D4539CE28A3B61300B4686E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4D4539BE28A3B60F00B4686E;
+					};
+					4D4539D828A3B61300B4686E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4D4539BE28A3B60F00B4686E;
+					};
+				};
+			};
+			buildConfigurationList = 4D4539BA28A3B60F00B4686E /* Build configuration list for PBXProject "ReceptionForLinkup" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D4539B628A3B60F00B4686E;
+			productRefGroup = 4D4539C028A3B60F00B4686E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D4539BE28A3B60F00B4686E /* ReceptionForLinkup */,
+				4D4539CE28A3B61300B4686E /* ReceptionForLinkupTests */,
+				4D4539D828A3B61300B4686E /* ReceptionForLinkupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D4539BD28A3B60F00B4686E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4539CA28A3B61200B4686E /* Preview Assets.xcassets in Resources */,
+				4D4539C728A3B61200B4686E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4539CD28A3B61300B4686E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4539D728A3B61300B4686E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D4539BB28A3B60F00B4686E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4539C528A3B60F00B4686E /* ContentView.swift in Sources */,
+				4D4539C328A3B60F00B4686E /* ReceptionForLinkupApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4539CB28A3B61300B4686E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4539D428A3B61300B4686E /* ReceptionForLinkupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4539D528A3B61300B4686E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4539DE28A3B61300B4686E /* ReceptionForLinkupUITests.swift in Sources */,
+				4D4539E028A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D4539D128A3B61300B4686E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D4539BE28A3B60F00B4686E /* ReceptionForLinkup */;
+			targetProxy = 4D4539D028A3B61300B4686E /* PBXContainerItemProxy */;
+		};
+		4D4539DB28A3B61300B4686E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D4539BE28A3B60F00B4686E /* ReceptionForLinkup */;
+			targetProxy = 4D4539DA28A3B61300B4686E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D4539E128A3B61300B4686E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D4539E228A3B61300B4686E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D4539E428A3B61300B4686E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReceptionForLinkup/Preview Content\"";
+				DEVELOPMENT_TEAM = 254G68X5D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D4539E528A3B61300B4686E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReceptionForLinkup/Preview Content\"";
+				DEVELOPMENT_TEAM = 254G68X5D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D4539E728A3B61300B4686E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254G68X5D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceptionForLinkup.app/ReceptionForLinkup";
+			};
+			name = Debug;
+		};
+		4D4539E828A3B61300B4686E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254G68X5D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceptionForLinkup.app/ReceptionForLinkup";
+			};
+			name = Release;
+		};
+		4D4539EA28A3B61300B4686E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254G68X5D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceptionForLinkup;
+			};
+			name = Debug;
+		};
+		4D4539EB28A3B61300B4686E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254G68X5D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceptionForLinkup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D4539BA28A3B60F00B4686E /* Build configuration list for PBXProject "ReceptionForLinkup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4539E128A3B61300B4686E /* Debug */,
+				4D4539E228A3B61300B4686E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4539E328A3B61300B4686E /* Build configuration list for PBXNativeTarget "ReceptionForLinkup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4539E428A3B61300B4686E /* Debug */,
+				4D4539E528A3B61300B4686E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4539E628A3B61300B4686E /* Build configuration list for PBXNativeTarget "ReceptionForLinkupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4539E728A3B61300B4686E /* Debug */,
+				4D4539E828A3B61300B4686E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4539E928A3B61300B4686E /* Build configuration list for PBXNativeTarget "ReceptionForLinkupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4539EA28A3B61300B4686E /* Debug */,
+				4D4539EB28A3B61300B4686E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D4539B728A3B60F00B4686E /* Project object */;
+}
