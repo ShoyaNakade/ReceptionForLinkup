@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30D935C3423A3DC3302D449B /* Pods_ReceptionForLinkup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2B1CD0D7A847F05885C503 /* Pods_ReceptionForLinkup.framework */; };
 		4D4539C328A3B60F00B4686E /* ReceptionForLinkupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539C228A3B60F00B4686E /* ReceptionForLinkupApp.swift */; };
 		4D4539C528A3B60F00B4686E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539C428A3B60F00B4686E /* ContentView.swift */; };
 		4D4539C728A3B61200B4686E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4539C628A3B61200B4686E /* Assets.xcassets */; };
@@ -14,6 +15,34 @@
 		4D4539D428A3B61300B4686E /* ReceptionForLinkupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539D328A3B61300B4686E /* ReceptionForLinkupTests.swift */; };
 		4D4539DE28A3B61300B4686E /* ReceptionForLinkupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539DD28A3B61300B4686E /* ReceptionForLinkupUITests.swift */; };
 		4D4539E028A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539DF28A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift */; };
+		4D4539F328A3B6EB00B4686E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F228A3B6EB00B4686E /* User.swift */; };
+		4D4539F428A3B6EB00B4686E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F228A3B6EB00B4686E /* User.swift */; };
+		4D4539F628A3B99F00B4686E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F528A3B99F00B4686E /* HomeView.swift */; };
+		4D4539F728A3B99F00B4686E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F528A3B99F00B4686E /* HomeView.swift */; };
+		4D4539F928A3BA0C00B4686E /* ReceptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F828A3BA0C00B4686E /* ReceptionView.swift */; };
+		4D4539FA28A3BA0C00B4686E /* ReceptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F828A3BA0C00B4686E /* ReceptionView.swift */; };
+		4D4539FC28A3BA9D00B4686E /* FinishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539FB28A3BA9D00B4686E /* FinishListView.swift */; };
+		4D4539FE28A3BAB800B4686E /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539FD28A3BAB800B4686E /* HistoryListView.swift */; };
+		4D453A0028A3DCF200B4686E /* HomeViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539FF28A3DCF200B4686E /* HomeViewButton.swift */; };
+		4D453A0228A3E58A00B4686E /* HomeTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D453A0128A3E58A00B4686E /* HomeTopHeader.swift */; };
+		4DEFD0A128A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A028A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift */; };
+		4DEFD0A328A48ABB00C4DCF9 /* ReceptionSubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A028A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift */; };
+		4DEFD0A528A4972E00C4DCF9 /* ReceptionConfirmModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A428A4972E00C4DCF9 /* ReceptionConfirmModalView.swift */; };
+		4DEFD0A728A49EF100C4DCF9 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A628A49EF100C4DCF9 /* SubmitButton.swift */; };
+		4DEFD0A928A4BDE300C4DCF9 /* ReceptionTermView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A828A4BDE300C4DCF9 /* ReceptionTermView.swift */; };
+		4DEFD0AC28A4C02F00C4DCF9 /* FinishConfirmModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0AB28A4C02F00C4DCF9 /* FinishConfirmModalView.swift */; };
+		4DEFD0AE28A4C9B700C4DCF9 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0AD28A4C9B700C4DCF9 /* ThankYouView.swift */; };
+		4DEFD0B128A4EE7C00C4DCF9 /* columnModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0B028A4EE7C00C4DCF9 /* columnModifer.swift */; };
+		4DEFD0B328A4F44D00C4DCF9 /* HistoryDeleteModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0B228A4F44D00C4DCF9 /* HistoryDeleteModalView.swift */; };
+		4DEFD0B528A4F93300C4DCF9 /* ChangeUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0B428A4F93300C4DCF9 /* ChangeUserInfoView.swift */; };
+		4DEFD0B828A51A4A00C4DCF9 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0B728A51A4A00C4DCF9 /* UserRepository.swift */; };
+		4DEFD0BB28A5D13B00C4DCF9 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0BA28A5D13B00C4DCF9 /* extensions.swift */; };
+		4DEFD0BD28A5EC1E00C4DCF9 /* HistoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0BC28A5EC1E00C4DCF9 /* HistoryListViewModel.swift */; };
+		4DEFD0BF28A62F1F00C4DCF9 /* CSVCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0BE28A62F1F00C4DCF9 /* CSVCreator.swift */; };
+		4DEFD0C128A634E900C4DCF9 /* utilFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0C028A634E900C4DCF9 /* utilFunc.swift */; };
+		4DEFD0C628A647E400C4DCF9 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0C528A647E400C4DCF9 /* AudioPlayer.swift */; };
+		4DEFD0D028A64BEE00C4DCF9 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFD0CE28A64BEE00C4DCF9 /* chimeup.mp3 */; };
+		4DEFD0D128A64BEE00C4DCF9 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFD0CF28A64BEE00C4DCF9 /* success.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A63A5154A356045734A3038 /* Pods-ReceptionForLinkup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceptionForLinkup.release.xcconfig"; path = "Target Support Files/Pods-ReceptionForLinkup/Pods-ReceptionForLinkup.release.xcconfig"; sourceTree = "<group>"; };
 		4D4539BF28A3B60F00B4686E /* ReceptionForLinkup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceptionForLinkup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4539C228A3B60F00B4686E /* ReceptionForLinkupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupApp.swift; sourceTree = "<group>"; };
 		4D4539C428A3B60F00B4686E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +74,33 @@
 		4D4539D928A3B61300B4686E /* ReceptionForLinkupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptionForLinkupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4539DD28A3B61300B4686E /* ReceptionForLinkupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupUITests.swift; sourceTree = "<group>"; };
 		4D4539DF28A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D4539F228A3B6EB00B4686E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4D4539F528A3B99F00B4686E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D4539F828A3BA0C00B4686E /* ReceptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionView.swift; sourceTree = "<group>"; };
+		4D4539FB28A3BA9D00B4686E /* FinishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishListView.swift; sourceTree = "<group>"; };
+		4D4539FD28A3BAB800B4686E /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		4D4539FF28A3DCF200B4686E /* HomeViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewButton.swift; sourceTree = "<group>"; };
+		4D453A0128A3E58A00B4686E /* HomeTopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopHeader.swift; sourceTree = "<group>"; };
+		4DEFD0A028A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionSubmitButtonView.swift; sourceTree = "<group>"; };
+		4DEFD0A428A4972E00C4DCF9 /* ReceptionConfirmModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionConfirmModalView.swift; sourceTree = "<group>"; };
+		4DEFD0A628A49EF100C4DCF9 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		4DEFD0A828A4BDE300C4DCF9 /* ReceptionTermView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionTermView.swift; sourceTree = "<group>"; };
+		4DEFD0AB28A4C02F00C4DCF9 /* FinishConfirmModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishConfirmModalView.swift; sourceTree = "<group>"; };
+		4DEFD0AD28A4C9B700C4DCF9 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
+		4DEFD0B028A4EE7C00C4DCF9 /* columnModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = columnModifer.swift; sourceTree = "<group>"; };
+		4DEFD0B228A4F44D00C4DCF9 /* HistoryDeleteModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDeleteModalView.swift; sourceTree = "<group>"; };
+		4DEFD0B428A4F93300C4DCF9 /* ChangeUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserInfoView.swift; sourceTree = "<group>"; };
+		4DEFD0B728A51A4A00C4DCF9 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		4DEFD0BA28A5D13B00C4DCF9 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		4DEFD0BC28A5EC1E00C4DCF9 /* HistoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListViewModel.swift; sourceTree = "<group>"; };
+		4DEFD0BE28A62F1F00C4DCF9 /* CSVCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVCreator.swift; sourceTree = "<group>"; };
+		4DEFD0C028A634E900C4DCF9 /* utilFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilFunc.swift; sourceTree = "<group>"; };
+		4DEFD0C228A6373E00C4DCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DEFD0C528A647E400C4DCF9 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		4DEFD0CE28A64BEE00C4DCF9 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		4DEFD0CF28A64BEE00C4DCF9 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		DA957605B546B87A9C9B679F /* Pods-ReceptionForLinkup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceptionForLinkup.debug.xcconfig"; path = "Target Support Files/Pods-ReceptionForLinkup/Pods-ReceptionForLinkup.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2B1CD0D7A847F05885C503 /* Pods_ReceptionForLinkup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReceptionForLinkup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D935C3423A3DC3302D449B /* Pods_ReceptionForLinkup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +129,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47989B71BD87A7C69D0C815B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA957605B546B87A9C9B679F /* Pods-ReceptionForLinkup.debug.xcconfig */,
+				0A63A5154A356045734A3038 /* Pods-ReceptionForLinkup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4D4539B628A3B60F00B4686E = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +145,8 @@
 				4D4539D228A3B61300B4686E /* ReceptionForLinkupTests */,
 				4D4539DC28A3B61300B4686E /* ReceptionForLinkupUITests */,
 				4D4539C028A3B60F00B4686E /* Products */,
+				47989B71BD87A7C69D0C815B /* Pods */,
+				863B45EA2729A6496082A752 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +163,16 @@
 		4D4539C128A3B60F00B4686E /* ReceptionForLinkup */ = {
 			isa = PBXGroup;
 			children = (
+				4DEFD0CD28A64BEE00C4DCF9 /* Sounds */,
+				4DEFD0C228A6373E00C4DCF9 /* Info.plist */,
+				4DEFD0B928A5D12A00C4DCF9 /* Extensions */,
+				4DEFD0AF28A4EE4800C4DCF9 /* Modifier */,
+				4D4539F128A3B6A400B4686E /* Utils */,
+				4D4539F028A3B69C00B4686E /* Components */,
+				4D4539EF28A3B68E00B4686E /* Repository */,
+				4D4539EE28A3B68700B4686E /* ViewModel */,
+				4D4539ED28A3B66300B4686E /* View */,
+				4D4539EC28A3B65A00B4686E /* Model */,
 				4D4539C228A3B60F00B4686E /* ReceptionForLinkupApp.swift */,
 				4D4539C428A3B60F00B4686E /* ContentView.swift */,
 				4D4539C628A3B61200B4686E /* Assets.xcassets */,
@@ -127,6 +206,133 @@
 			path = ReceptionForLinkupUITests;
 			sourceTree = "<group>";
 		};
+		4D4539EC28A3B65A00B4686E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539F228A3B6EB00B4686E /* User.swift */,
+				4DEFD0BE28A62F1F00C4DCF9 /* CSVCreator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D4539ED28A3B66300B4686E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D453A0328A3E5AA00B4686E /* Home */,
+				4DEFD0A228A48AB300C4DCF9 /* Reception */,
+				4DEFD0AA28A4C00200C4DCF9 /* FInish */,
+				4DEFD0B628A519A500C4DCF9 /* History */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D4539EE28A3B68700B4686E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFD0BC28A5EC1E00C4DCF9 /* HistoryListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D4539EF28A3B68E00B4686E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFD0B728A51A4A00C4DCF9 /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		4D4539F028A3B69C00B4686E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFD0A628A49EF100C4DCF9 /* SubmitButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4D4539F128A3B6A400B4686E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFD0C028A634E900C4DCF9 /* utilFunc.swift */,
+				4DEFD0C528A647E400C4DCF9 /* AudioPlayer.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4D453A0328A3E5AA00B4686E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539F528A3B99F00B4686E /* HomeView.swift */,
+				4D4539FF28A3DCF200B4686E /* HomeViewButton.swift */,
+				4D453A0128A3E58A00B4686E /* HomeTopHeader.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4DEFD0A228A48AB300C4DCF9 /* Reception */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539F828A3BA0C00B4686E /* ReceptionView.swift */,
+				4DEFD0A828A4BDE300C4DCF9 /* ReceptionTermView.swift */,
+				4DEFD0A428A4972E00C4DCF9 /* ReceptionConfirmModalView.swift */,
+				4DEFD0A028A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift */,
+			);
+			path = Reception;
+			sourceTree = "<group>";
+		};
+		4DEFD0AA28A4C00200C4DCF9 /* FInish */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539FB28A3BA9D00B4686E /* FinishListView.swift */,
+				4DEFD0AB28A4C02F00C4DCF9 /* FinishConfirmModalView.swift */,
+				4DEFD0AD28A4C9B700C4DCF9 /* ThankYouView.swift */,
+				4DEFD0B428A4F93300C4DCF9 /* ChangeUserInfoView.swift */,
+			);
+			path = FInish;
+			sourceTree = "<group>";
+		};
+		4DEFD0AF28A4EE4800C4DCF9 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFD0B028A4EE7C00C4DCF9 /* columnModifer.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		4DEFD0B628A519A500C4DCF9 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				4D4539FD28A3BAB800B4686E /* HistoryListView.swift */,
+				4DEFD0B228A4F44D00C4DCF9 /* HistoryDeleteModalView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		4DEFD0B928A5D12A00C4DCF9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFD0BA28A5D13B00C4DCF9 /* extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4DEFD0CD28A64BEE00C4DCF9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFD0CE28A64BEE00C4DCF9 /* chimeup.mp3 */,
+				4DEFD0CF28A64BEE00C4DCF9 /* success.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		863B45EA2729A6496082A752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC2B1CD0D7A847F05885C503 /* Pods_ReceptionForLinkup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +340,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D4539E328A3B61300B4686E /* Build configuration list for PBXNativeTarget "ReceptionForLinkup" */;
 			buildPhases = (
+				31E3407BC85CC596B01EFB77 /* [CP] Check Pods Manifest.lock */,
 				4D4539BB28A3B60F00B4686E /* Sources */,
 				4D4539BC28A3B60F00B4686E /* Frameworks */,
 				4D4539BD28A3B60F00B4686E /* Resources */,
+				F85E576E24B2A85C18A4DB0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +439,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEFD0D128A64BEE00C4DCF9 /* success.m4a in Resources */,
+				4DEFD0D028A64BEE00C4DCF9 /* chimeup.mp3 in Resources */,
 				4D4539CA28A3B61200B4686E /* Preview Assets.xcassets in Resources */,
 				4D4539C728A3B61200B4686E /* Assets.xcassets in Resources */,
 			);
@@ -252,13 +462,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31E3407BC85CC596B01EFB77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReceptionForLinkup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85E576E24B2A85C18A4DB0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReceptionForLinkup/Pods-ReceptionForLinkup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReceptionForLinkup/Pods-ReceptionForLinkup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReceptionForLinkup/Pods-ReceptionForLinkup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D4539BB28A3B60F00B4686E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEFD0AC28A4C02F00C4DCF9 /* FinishConfirmModalView.swift in Sources */,
 				4D4539C528A3B60F00B4686E /* ContentView.swift in Sources */,
+				4DEFD0B128A4EE7C00C4DCF9 /* columnModifer.swift in Sources */,
+				4DEFD0BD28A5EC1E00C4DCF9 /* HistoryListViewModel.swift in Sources */,
+				4DEFD0A728A49EF100C4DCF9 /* SubmitButton.swift in Sources */,
+				4D4539FC28A3BA9D00B4686E /* FinishListView.swift in Sources */,
+				4D4539FE28A3BAB800B4686E /* HistoryListView.swift in Sources */,
+				4DEFD0A528A4972E00C4DCF9 /* ReceptionConfirmModalView.swift in Sources */,
+				4D4539F928A3BA0C00B4686E /* ReceptionView.swift in Sources */,
+				4DEFD0A128A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift in Sources */,
+				4D4539F628A3B99F00B4686E /* HomeView.swift in Sources */,
+				4DEFD0C628A647E400C4DCF9 /* AudioPlayer.swift in Sources */,
+				4DEFD0A928A4BDE300C4DCF9 /* ReceptionTermView.swift in Sources */,
+				4DEFD0BB28A5D13B00C4DCF9 /* extensions.swift in Sources */,
 				4D4539C328A3B60F00B4686E /* ReceptionForLinkupApp.swift in Sources */,
+				4DEFD0C128A634E900C4DCF9 /* utilFunc.swift in Sources */,
+				4D4539F328A3B6EB00B4686E /* User.swift in Sources */,
+				4DEFD0B328A4F44D00C4DCF9 /* HistoryDeleteModalView.swift in Sources */,
+				4D453A0228A3E58A00B4686E /* HomeTopHeader.swift in Sources */,
+				4DEFD0BF28A62F1F00C4DCF9 /* CSVCreator.swift in Sources */,
+				4DEFD0B528A4F93300C4DCF9 /* ChangeUserInfoView.swift in Sources */,
+				4D453A0028A3DCF200B4686E /* HomeViewButton.swift in Sources */,
+				4DEFD0B828A51A4A00C4DCF9 /* UserRepository.swift in Sources */,
+				4DEFD0AE28A4C9B700C4DCF9 /* ThankYouView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +540,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4539F428A3B6EB00B4686E /* User.swift in Sources */,
 				4D4539D428A3B61300B4686E /* ReceptionForLinkupTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +549,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4539F728A3B99F00B4686E /* HomeView.swift in Sources */,
 				4D4539DE28A3B61300B4686E /* ReceptionForLinkupUITests.swift in Sources */,
+				4D4539FA28A3BA0C00B4686E /* ReceptionView.swift in Sources */,
 				4D4539E028A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift in Sources */,
+				4DEFD0A328A48ABB00C4DCF9 /* ReceptionSubmitButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +689,7 @@
 		};
 		4D4539E428A3B61300B4686E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA957605B546B87A9C9B679F /* Pods-ReceptionForLinkup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,10 +699,12 @@
 				DEVELOPMENT_TEAM = 254G68X5D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceptionForLinkup/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,12 +715,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		4D4539E528A3B61300B4686E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A63A5154A356045734A3038 /* Pods-ReceptionForLinkup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,10 +731,12 @@
 				DEVELOPMENT_TEAM = 254G68X5D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceptionForLinkup/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,7 +747,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
