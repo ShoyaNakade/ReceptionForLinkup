@@ -9,16 +9,9 @@ import SwiftUI
 
 struct ReceptionView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    @State var userRepository = UserRepository()
-    @State var persons = 1
-    @State var isPassport: Bool = false
-    @State var name: String = ""
-    @State var check = false
+    @ObservedObject var viewModel = ReceptionViewModel()
     @State var showingConfirm = false
-    @State var disabled = true
-    
-    let formWidth = UIScreen.main.bounds.width / 2
-//    let termHeight = UIScreen.main.bounds.height / 2.6
+    private let formWidth = UIScreen.main.bounds.width / 2
     
     var body: some View {
         VStack {
@@ -27,65 +20,52 @@ struct ReceptionView: View {
                 VStack{
                     VStack {
                         Section("入力フォーム") {
-//                            Stepper("・ご利用人数: \(persons)") {
-                            Stepper("・ご利用人数: \(persons)") {
-                                persons += 1
+                            Stepper("・ご利用人数: \(viewModel.persons)") {
+                                viewModel.personsIncrement()
                             } onDecrement: {
-                                if persons > 1 {persons -= 1}
+                                viewModel.personsDecrement()
                             }.font(.system(size: 32))
                             Divider()
-                            Toggle(isOn: $isPassport) {
+                            Toggle(isOn: $viewModel.isPassport) {
                                 Text("・マンスリーパス:")
-                                Text( isPassport ? "有り":"無し")
-                                    .foregroundColor(isPassport ? .blue : .primary)
+                                Text( viewModel.isPassport ? "有り":"無し")
+                                    .foregroundColor(viewModel.isPassport ? .blue : .primary)
                             }.font(.system(size: 32))
                             Divider()
                             HStack(spacing:10) {
                                 Text("・代表者名:")
-                                TextField("15文字以内", text: $name)
+                                TextField("15文字以内", text: $viewModel.name)
                                     .foregroundColor(.blue)
                                     .padding(5)
                                 Spacer()
                             }.font(.system(size: 32))
-                                .onChange(of: name) { _ in
-                                    if check && !name.isEmpty {
-                                        disabled = false
-                                    } else {
-                                        disabled = true
-                                    }
+                                .onChange(of: viewModel.name) { _ in
+                                    viewModel.checkButtonActive()
                                 }
                             Divider()
-                            
                             HStack(spacing:20) {
-                                Image(systemName: check
-                                      ? "checkmark.square"
-                                      : "square")
-                                .resizable()
-                                .frame(width: 30, height: 30, alignment: .leading)
-                                .foregroundColor(.blue)
-                                .opacity(check ? 1 : 0.3)
+                                Image(systemName: viewModel.check ? "checkmark.square" : "square")
+                                    .resizable()
+                                    .frame(width: 30, height: 30, alignment: .leading)
+                                    .foregroundColor(.blue)
+                                    .opacity(viewModel.check ? 1 : 0.3)
                                 Text("利用規約を確認し、同意しました。")
                                     .foregroundColor(.blue)
                             }
                             .padding(.vertical)
                             .font(.system(size: 25))
                             .onTapGesture {
-                                check.toggle()
-                                if check && !name.isEmpty {
-                                    disabled = false
-                                } else {
-                                    disabled = true
-                                }
+                                viewModel.tapCheckBox()
                             }
                         }
                     }
                     .padding()
                     .frame(width: formWidth, alignment: .leading)
                     .border(Color.gray, width: 1)
-
                 }
                 Spacer()
-                ReceptionSubmitButtonView(text: "受付送信",color:.green ,disabled: $disabled) {
+                ReceptionSubmitButtonView(text: "受付送信",color:.green ,
+                                          disabled: $viewModel.disabled) {
                     showingConfirm.toggle()
                 }
                 Spacer()
@@ -94,8 +74,8 @@ struct ReceptionView: View {
             ReceptionTermView()
         }
         .sheet(isPresented:$showingConfirm, onDismiss: {}){
-            ReceptionConfirmModalView(currentUser: User(userName: name, persons: persons, isPassUser: isPassport)) {
-                userRepository.createUser(userName: name, persons: persons, isPassUser: isPassport)
+            ReceptionConfirmView(persons: viewModel.persons, isPassPort: viewModel.isPassport, name: viewModel.name) {
+                viewModel.createNewUser()
                 presentationMode.wrappedValue.dismiss()
             }
         }

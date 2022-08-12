@@ -15,9 +15,7 @@ class UserRepository:ObservableObject  {
     @Published var beingUsersNum:Int = 0
     @Published var finishUsers:[User] = []
     @Published var finishUsersNum:Int = 0
-//    @Published var estimatedUseTime:Int = 0
-//    @Published var estimatedPayment:Int = 0
-    
+
     @Published private var currentResult: Results<User> // view更新通知に必須
     private var notificationTokens: [NotificationToken] = []
     

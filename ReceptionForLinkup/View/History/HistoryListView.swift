@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct HistoryListView: View {
-    let displayName = Bundle.main.displayName ?? "アプリ名"
     @Environment(\.presentationMode) var presentationMode
     @ObservedObject var userRepository = UserRepository()
     
@@ -112,17 +111,7 @@ struct HistoryListView: View {
             }
         }
         .sheet(isPresented: $showCSVNotification){
-            VStack(spacing:50) {
-                Text("ファイルアプリに保存されました。 保存先は, \n'\(displayName)/CSVデータ/日付.csv' です。\n 文字化けする場合は、文字コードをutf-8にして読み込んでください。")
-                    .font(.title3)
-                Button {
-                    showCSVNotification.toggle()
-                } label: {
-                    Text("閉じる")
-                        .font(.largeTitle)
-                }
-            }
-
+            HistoryCSVConfirmView(showCSVNotification: $showCSVNotification)
         }
     }
 }

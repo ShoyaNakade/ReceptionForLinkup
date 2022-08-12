@@ -1,5 +1,5 @@
 //
-//  ReceptionConfirmModalView.swift
+//  ReceptionConfirmView.swift
 //  ReceptionForLinkup
 //
 //  Created by 中出翔也 on 2022/08/11.
@@ -7,13 +7,17 @@
 
 import SwiftUI
 
-struct ReceptionConfirmModalView: View {
+struct ReceptionConfirmView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    let currentUser: User
+    private let mPersons:Int
+    private let mPassport: Bool
+    private let mName: String
     let onSubmit:() -> Void
     
-    init(currentUser: User,onSubmit: @escaping ()-> Void) {
-        self.currentUser = currentUser
+    init(persons: Int, isPassPort: Bool, name: String ,onSubmit: @escaping ()-> Void) {
+        self.mPersons = persons
+        self.mPassport = isPassPort
+        self.mName = name
         self.onSubmit = onSubmit
     }
     
@@ -28,25 +32,25 @@ struct ReceptionConfirmModalView: View {
                 HStack {
                     Text("・ご利用人数:")
                     Spacer()
-                    Text("\(currentUser.persons)")
+                    Text("\(mPersons)")
                         .foregroundColor(.blue)
                 }
                 HStack {
                     Text("・マンスリーパス:")
                     Spacer()
-                    Text(currentUser.isPassUser ? "有り" : "無し")
+                    Text(mPassport ? "有り" : "無し")
                         .foregroundColor(.blue)
                 }
                 HStack {
                     Text("・代表者名:")
                     Spacer()
-                    Text(currentUser.userName)
+                    Text(mName)
                         .foregroundColor(.blue)
                 }
                 HStack {
                     Text("・受付時間:")
                     Spacer()
-                    Text(currentUser.inTimeToString())
+                    Text(nowTimeToString())
                         .foregroundColor(.blue)
                 }
             }
@@ -73,9 +77,9 @@ struct ReceptionConfirmModalView: View {
     }
 }
 
-struct ReceptionConfirmModalView_Previews: PreviewProvider {
+struct ReceptionConfirmView_Previews: PreviewProvider {
     static var previews: some View {
-        ReceptionConfirmModalView(currentUser: User()){}
+        ReceptionConfirmView(persons: 1, isPassPort: false, name: "testuser"){}
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

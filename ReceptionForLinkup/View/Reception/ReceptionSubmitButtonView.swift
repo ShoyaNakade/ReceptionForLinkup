@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ReceptionSubmitButtonView: View {
     let text:String
-    var personsNum = 1
-    let paddingWidth = UIScreen.main.bounds.width / 3.2
-    let paddingHeight = UIScreen.main.bounds.height / 3
     let color: Color
-    let onAction: () -> Void
     @Binding var disabled:Bool
+    let onAction: () -> Void
+    
+    private let paddingWidth = UIScreen.main.bounds.width / 3.2
+    private let paddingHeight = UIScreen.main.bounds.height / 3
     
     init(text: String, color: Color, disabled: Binding<Bool>,
          onAction: @escaping() -> Void) {

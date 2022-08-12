@@ -12,10 +12,3 @@ extension Array {
         return indices.contains(index) ? self[index] : nil
     }
 }
-
-
-extension Bundle {
-    var displayName: String? {
-        return object(forInfoDictionaryKey: "CFBundleDisplayName") as? String
-    }
-}

@@ -10,29 +10,10 @@ import RealmSwift
 
 struct ChangeUserInfoView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    private var mCurrentUser: User
-    
-    @State private var mPersons:Int
-    @State var mPass:Bool
-    @State var mName:String
-    @State var mInTime:Date
-    
-    private func currentUserReload() {
-        let realm = try! Realm()
-        try! realm.write {//この時点でDに反映される。
-            mCurrentUser.persons = mPersons
-            mCurrentUser.isPassUser = mPass
-            mCurrentUser.userName = mName
-            mCurrentUser.inTime = mInTime
-        }
-    }
+    @ObservedObject var viewModel: ChangeUserInfoViewModel
     
     init(currentUser: User) {
-        self.mCurrentUser = currentUser
-        self._mPersons = State(initialValue: currentUser.persons)
-        self._mPass = State(initialValue:currentUser.isPassUser)
-        self._mName = State(initialValue:currentUser.userName)
-        self._mInTime = State(initialValue:currentUser.inTime)
+        viewModel = ChangeUserInfoViewModel(currentUser: currentUser)
     }
     
     var body: some View {
@@ -43,28 +24,28 @@ struct ChangeUserInfoView: View {
                 .fontWeight(.bold)
            
             List{
-                Stepper("・ご利用人数: \(mPersons)") {
-                    mPersons += 1
+                Stepper("・ご利用人数: \(viewModel.mPersons)") {
+                    viewModel.personsIncrement()
                 } onDecrement: {
-                    if mPersons > 1 { mPersons -= 1}
+                    viewModel.personsDecrement()
                 }
                 HStack {
                     Text("・マンスリーパス:")
                     Spacer()
-                    Toggle(isOn: $mPass) {
-                        Text( mPass ? "有り":"無し")
+                    Toggle(isOn: $viewModel.mPass) {
+                        Text( viewModel.mPass ? "有り":"無し")
                             .foregroundColor(.blue)
                     }
                 }
                 HStack {
                     Text("・代表者名:")
                     Spacer()
-                    TextField("代表", text: $mName)
+                    TextField("代表", text: $viewModel.mName)
                         .foregroundColor(.blue)
                         .multilineTextAlignment(TextAlignment.trailing)
                 }
                 HStack {
-                    DatePicker("・受付時間:", selection: $mInTime, displayedComponents: .hourAndMinute)
+                    DatePicker("・受付時間:", selection: $viewModel.mInTime, displayedComponents: .hourAndMinute)
                 }
             }
             .frame(width: 400, height: 250, alignment: .leading)
@@ -73,7 +54,7 @@ struct ChangeUserInfoView: View {
                 Spacer()
                 Spacer()
                 SubmitButton(text: "変更", color: .blue) {
-                    currentUserReload()
+                    viewModel.currentUserReload()
                     presentationMode.wrappedValue.dismiss()
                 }
                 Spacer()

@@ -15,3 +15,15 @@ func removeComma( _ str :String) -> String {
     }
    return numString
 }
+
+func nowTimeToString() -> String {
+    let dateFormatter = DateFormatter()
+    /// カレンダー、ロケール、タイムゾーンの設定（未指定時は端末の設定が採用される）
+    dateFormatter.calendar = Calendar(identifier: .gregorian)
+    dateFormatter.locale = Locale(identifier: "ja_JP")
+    dateFormatter.timeZone = TimeZone(identifier:  "Asia/Tokyo")
+    
+    dateFormatter.dateFormat = "HH:mm"
+    
+    return dateFormatter.string(from: Date())
+}

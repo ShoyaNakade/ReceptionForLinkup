@@ -14,7 +14,16 @@ struct FinishListView: View {
     @State var isEditTimeMode: Bool = false
     @State var tapUser = User()
     @State var currentDate = Date()
+    
     @State var timer :Timer?
+    private let interval = 30.0
+    private func setTimer() {
+        isEditTimeMode = false
+        self.timer = Timer.scheduledTimer(withTimeInterval: self.interval, repeats: true) { _ in
+            self.currentDate = Date()
+            print(currentDate)
+        }
+    }
 
     var body: some View {
         List {
@@ -54,7 +63,6 @@ struct FinishListView: View {
             ForEach(userRepository.beingUsers, id:\.self) { user in
                 HStack {
                     Button {
-                        // todo
                         showingConfirm.toggle()
                         tapUser = user
                     } label: {
@@ -80,7 +88,6 @@ struct FinishListView: View {
                                 .modifier(columnModifer())
                         }
                     }
-//                    .buttonStyle(BorderlessButtonStyle())
                     .disabled(isEditTimeMode)
                     .padding(.vertical)
                     .foregroundColor(.primary)
@@ -106,18 +113,15 @@ struct FinishListView: View {
                 isEditTimeMode.toggle()
             }
         )
-        .sheet(isPresented:$showingConfirm, onDismiss: {}){
-            FinishConfirmModalView(currentUser: self.tapUser,
-                                   backToHome: { presentationMode.wrappedValue.dismiss()}) { outTime in
+        .sheet(isPresented:$showingConfirm){
+            FinishConfirmView(currentUser: self.tapUser,
+                backToHome: { presentationMode.wrappedValue.dismiss()}) { outTime in
                 userRepository.writeOutTime(user: self.tapUser, outTime: outTime)
             }
         }
         .onAppear(perform: {
             isEditTimeMode = false
-            self.timer = Timer.scheduledTimer(withTimeInterval: 30.0, repeats: true) { _ in
-                self.currentDate = Date()
-                print(currentDate)
-            }
+            setTimer()
         })
     }
 }
@@ -125,7 +129,7 @@ struct FinishListView: View {
 struct FinishListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            FinishConfirmModalView(currentUser: User(),backToHome: {}){outTime in }
+            FinishConfirmView(currentUser: User(),backToHome: {}){outTime in }
         }.navigationViewStyle(.stack)
             .previewInterfaceOrientation(.landscapeLeft)
     }
