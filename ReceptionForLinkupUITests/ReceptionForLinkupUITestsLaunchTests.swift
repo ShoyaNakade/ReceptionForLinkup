@@ -2,10 +2,12 @@
 //  ReceptionForLinkupUITestsLaunchTests.swift
 //  ReceptionForLinkupUITests
 //
-//  Created by 中出翔也 on 2022/08/10.
+//  Created by 中出翔也 on 2022/08/13.
 //
 
 import XCTest
+@testable import ReceptionForLinkup
+//import ViewInspector
 
 class ReceptionForLinkupUITestsLaunchTests: XCTestCase {
 

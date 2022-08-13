@@ -12,21 +12,16 @@
 		4D4539C528A3B60F00B4686E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539C428A3B60F00B4686E /* ContentView.swift */; };
 		4D4539C728A3B61200B4686E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4539C628A3B61200B4686E /* Assets.xcassets */; };
 		4D4539CA28A3B61200B4686E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4539C928A3B61200B4686E /* Preview Assets.xcassets */; };
-		4D4539D428A3B61300B4686E /* ReceptionForLinkupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539D328A3B61300B4686E /* ReceptionForLinkupTests.swift */; };
-		4D4539DE28A3B61300B4686E /* ReceptionForLinkupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539DD28A3B61300B4686E /* ReceptionForLinkupUITests.swift */; };
-		4D4539E028A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539DF28A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift */; };
 		4D4539F328A3B6EB00B4686E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F228A3B6EB00B4686E /* User.swift */; };
-		4D4539F428A3B6EB00B4686E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F228A3B6EB00B4686E /* User.swift */; };
 		4D4539F628A3B99F00B4686E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F528A3B99F00B4686E /* HomeView.swift */; };
-		4D4539F728A3B99F00B4686E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F528A3B99F00B4686E /* HomeView.swift */; };
 		4D4539F928A3BA0C00B4686E /* ReceptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F828A3BA0C00B4686E /* ReceptionView.swift */; };
-		4D4539FA28A3BA0C00B4686E /* ReceptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F828A3BA0C00B4686E /* ReceptionView.swift */; };
 		4D4539FC28A3BA9D00B4686E /* FinishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539FB28A3BA9D00B4686E /* FinishListView.swift */; };
 		4D4539FE28A3BAB800B4686E /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539FD28A3BAB800B4686E /* HistoryListView.swift */; };
 		4D453A0028A3DCF200B4686E /* HomeViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539FF28A3DCF200B4686E /* HomeViewButton.swift */; };
 		4D453A0228A3E58A00B4686E /* HomeTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D453A0128A3E58A00B4686E /* HomeTopHeader.swift */; };
+		4D505A7F28A73E8B00143A8E /* UserModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0DB28A723BF00C4DCF9 /* UserModelTests.swift */; };
+		4DD44E7F28A79E59001F00FD /* ReceptionForLinkupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D505A8828A75AD400143A8E /* ReceptionForLinkupUITestsLaunchTests.swift */; };
 		4DEFD0A128A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A028A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift */; };
-		4DEFD0A328A48ABB00C4DCF9 /* ReceptionSubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A028A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift */; };
 		4DEFD0A528A4972E00C4DCF9 /* ReceptionConfirmModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A428A4972E00C4DCF9 /* ReceptionConfirmModalView.swift */; };
 		4DEFD0A728A49EF100C4DCF9 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A628A49EF100C4DCF9 /* SubmitButton.swift */; };
 		4DEFD0A928A4BDE300C4DCF9 /* ReceptionTermView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A828A4BDE300C4DCF9 /* ReceptionTermView.swift */; };
@@ -45,6 +40,7 @@
 		4DEFD0D328A7066100C4DCF9 /* ReceptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0D228A7066100C4DCF9 /* ReceptionViewModel.swift */; };
 		4DEFD0D728A713A200C4DCF9 /* ChangeUserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0D628A713A200C4DCF9 /* ChangeUserInfoViewModel.swift */; };
 		4DEFD0D928A7176800C4DCF9 /* HistoryCSVConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0D828A7176800C4DCF9 /* HistoryCSVConfirmView.swift */; };
+		8E5A97D0FB66032BE34F60D5 /* Pods_ReceptionForLinkup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D505A7928A73CC200143A8E /* Pods_ReceptionForLinkup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +51,7 @@
 			remoteGlobalIDString = 4D4539BE28A3B60F00B4686E;
 			remoteInfo = ReceptionForLinkup;
 		};
-		4D4539DA28A3B61300B4686E /* PBXContainerItemProxy */ = {
+		4D505A8A28A75AD400143A8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4D4539B728A3B60F00B4686E /* Project object */;
 			proxyType = 1;
@@ -72,10 +68,6 @@
 		4D4539C628A3B61200B4686E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D4539C928A3B61200B4686E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D4539CF28A3B61300B4686E /* ReceptionForLinkupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptionForLinkupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D4539D328A3B61300B4686E /* ReceptionForLinkupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupTests.swift; sourceTree = "<group>"; };
-		4D4539D928A3B61300B4686E /* ReceptionForLinkupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptionForLinkupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D4539DD28A3B61300B4686E /* ReceptionForLinkupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupUITests.swift; sourceTree = "<group>"; };
-		4D4539DF28A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4D4539F228A3B6EB00B4686E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4D4539F528A3B99F00B4686E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4D4539F828A3BA0C00B4686E /* ReceptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionView.swift; sourceTree = "<group>"; };
@@ -83,6 +75,18 @@
 		4D4539FD28A3BAB800B4686E /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
 		4D4539FF28A3DCF200B4686E /* HomeViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewButton.swift; sourceTree = "<group>"; };
 		4D453A0128A3E58A00B4686E /* HomeTopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopHeader.swift; sourceTree = "<group>"; };
+		4D505A6728A7333100143A8E /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D505A6928A7334D00143A8E /* Pods_ReceptionForLinkup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ReceptionForLinkup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D505A6B28A7362100143A8E /* Pods_ReceptionForLinkup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ReceptionForLinkup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D505A6D28A7362100143A8E /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D505A6F28A7362100143A8E /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D505A7928A73CC200143A8E /* Pods_ReceptionForLinkup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ReceptionForLinkup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D505A7B28A73D1400143A8E /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D505A7D28A73D1400143A8E /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D505A8428A75AD400143A8E /* ReceptionForLinkupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptionForLinkupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D505A8828A75AD400143A8E /* ReceptionForLinkupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DBD97B728A77B4900B3A5F1 /* ViewInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ViewInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBD97B928A77E0900B3A5F1 /* ViewInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ViewInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEFD0A028A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionSubmitButtonView.swift; sourceTree = "<group>"; };
 		4DEFD0A428A4972E00C4DCF9 /* ReceptionConfirmModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionConfirmModalView.swift; sourceTree = "<group>"; };
 		4DEFD0A628A49EF100C4DCF9 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 		4DEFD0D228A7066100C4DCF9 /* ReceptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionViewModel.swift; sourceTree = "<group>"; };
 		4DEFD0D628A713A200C4DCF9 /* ChangeUserInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserInfoViewModel.swift; sourceTree = "<group>"; };
 		4DEFD0D828A7176800C4DCF9 /* HistoryCSVConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCSVConfirmView.swift; sourceTree = "<group>"; };
+		4DEFD0DB28A723BF00C4DCF9 /* UserModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelTests.swift; sourceTree = "<group>"; };
+		4DEFD0DD28A726B300C4DCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DA957605B546B87A9C9B679F /* Pods-ReceptionForLinkup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceptionForLinkup.debug.xcconfig"; path = "Target Support Files/Pods-ReceptionForLinkup/Pods-ReceptionForLinkup.debug.xcconfig"; sourceTree = "<group>"; };
 		FC2B1CD0D7A847F05885C503 /* Pods_ReceptionForLinkup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReceptionForLinkup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,6 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D935C3423A3DC3302D449B /* Pods_ReceptionForLinkup.framework in Frameworks */,
+				8E5A97D0FB66032BE34F60D5 /* Pods_ReceptionForLinkup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +130,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D4539D628A3B61300B4686E /* Frameworks */ = {
+		4D505A8128A75AD400143A8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -147,7 +154,7 @@
 			children = (
 				4D4539C128A3B60F00B4686E /* ReceptionForLinkup */,
 				4D4539D228A3B61300B4686E /* ReceptionForLinkupTests */,
-				4D4539DC28A3B61300B4686E /* ReceptionForLinkupUITests */,
+				4D505A8528A75AD400143A8E /* ReceptionForLinkupUITests */,
 				4D4539C028A3B60F00B4686E /* Products */,
 				47989B71BD87A7C69D0C815B /* Pods */,
 				863B45EA2729A6496082A752 /* Frameworks */,
@@ -159,7 +166,7 @@
 			children = (
 				4D4539BF28A3B60F00B4686E /* ReceptionForLinkup.app */,
 				4D4539CF28A3B61300B4686E /* ReceptionForLinkupTests.xctest */,
-				4D4539D928A3B61300B4686E /* ReceptionForLinkupUITests.xctest */,
+				4D505A8428A75AD400143A8E /* ReceptionForLinkupUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,18 +202,10 @@
 		4D4539D228A3B61300B4686E /* ReceptionForLinkupTests */ = {
 			isa = PBXGroup;
 			children = (
-				4D4539D328A3B61300B4686E /* ReceptionForLinkupTests.swift */,
+				4DEFD0DD28A726B300C4DCF9 /* Info.plist */,
+				4DEFD0DA28A7236E00C4DCF9 /* Model */,
 			);
 			path = ReceptionForLinkupTests;
-			sourceTree = "<group>";
-		};
-		4D4539DC28A3B61300B4686E /* ReceptionForLinkupUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4D4539DD28A3B61300B4686E /* ReceptionForLinkupUITests.swift */,
-				4D4539DF28A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift */,
-			);
-			path = ReceptionForLinkupUITests;
 			sourceTree = "<group>";
 		};
 		4D4539EC28A3B65A00B4686E /* Model */ = {
@@ -262,6 +261,14 @@
 				4D453A0128A3E58A00B4686E /* HomeTopHeader.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		4D505A8528A75AD400143A8E /* ReceptionForLinkupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D505A8828A75AD400143A8E /* ReceptionForLinkupUITestsLaunchTests.swift */,
+			);
+			path = ReceptionForLinkupUITests;
 			sourceTree = "<group>";
 		};
 		4DEFD0A228A48AB300C4DCF9 /* Reception */ = {
@@ -339,9 +346,27 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		4DEFD0DA28A7236E00C4DCF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFD0DB28A723BF00C4DCF9 /* UserModelTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		863B45EA2729A6496082A752 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DBD97B928A77E0900B3A5F1 /* ViewInspector.framework */,
+				4DBD97B728A77B4900B3A5F1 /* ViewInspector.framework */,
+				4D505A7B28A73D1400143A8E /* Realm.framework */,
+				4D505A7D28A73D1400143A8E /* RealmSwift.framework */,
+				4D505A7928A73CC200143A8E /* Pods_ReceptionForLinkup.framework */,
+				4D505A6B28A7362100143A8E /* Pods_ReceptionForLinkup.framework */,
+				4D505A6D28A7362100143A8E /* Realm.framework */,
+				4D505A6F28A7362100143A8E /* RealmSwift.framework */,
+				4D505A6928A7334D00143A8E /* Pods_ReceptionForLinkup.framework */,
+				4D505A6728A7333100143A8E /* Realm.framework */,
 				FC2B1CD0D7A847F05885C503 /* Pods_ReceptionForLinkup.framework */,
 			);
 			name = Frameworks;
@@ -387,22 +412,22 @@
 			productReference = 4D4539CF28A3B61300B4686E /* ReceptionForLinkupTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4D4539D828A3B61300B4686E /* ReceptionForLinkupUITests */ = {
+		4D505A8328A75AD400143A8E /* ReceptionForLinkupUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D4539E928A3B61300B4686E /* Build configuration list for PBXNativeTarget "ReceptionForLinkupUITests" */;
+			buildConfigurationList = 4D505A8C28A75AD400143A8E /* Build configuration list for PBXNativeTarget "ReceptionForLinkupUITests" */;
 			buildPhases = (
-				4D4539D528A3B61300B4686E /* Sources */,
-				4D4539D628A3B61300B4686E /* Frameworks */,
-				4D4539D728A3B61300B4686E /* Resources */,
+				4D505A8028A75AD400143A8E /* Sources */,
+				4D505A8128A75AD400143A8E /* Frameworks */,
+				4D505A8228A75AD400143A8E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4D4539DB28A3B61300B4686E /* PBXTargetDependency */,
+				4D505A8B28A75AD400143A8E /* PBXTargetDependency */,
 			);
 			name = ReceptionForLinkupUITests;
 			productName = ReceptionForLinkupUITests;
-			productReference = 4D4539D928A3B61300B4686E /* ReceptionForLinkupUITests.xctest */;
+			productReference = 4D505A8428A75AD400143A8E /* ReceptionForLinkupUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -422,7 +447,7 @@
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 4D4539BE28A3B60F00B4686E;
 					};
-					4D4539D828A3B61300B4686E = {
+					4D505A8328A75AD400143A8E = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 4D4539BE28A3B60F00B4686E;
 					};
@@ -443,7 +468,7 @@
 			targets = (
 				4D4539BE28A3B60F00B4686E /* ReceptionForLinkup */,
 				4D4539CE28A3B61300B4686E /* ReceptionForLinkupTests */,
-				4D4539D828A3B61300B4686E /* ReceptionForLinkupUITests */,
+				4D505A8328A75AD400143A8E /* ReceptionForLinkupUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -467,7 +492,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D4539D728A3B61300B4686E /* Resources */ = {
+		4D505A8228A75AD400143A8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -556,20 +581,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D4539F428A3B6EB00B4686E /* User.swift in Sources */,
-				4D4539D428A3B61300B4686E /* ReceptionForLinkupTests.swift in Sources */,
+				4D505A7F28A73E8B00143A8E /* UserModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D4539D528A3B61300B4686E /* Sources */ = {
+		4D505A8028A75AD400143A8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D4539F728A3B99F00B4686E /* HomeView.swift in Sources */,
-				4D4539DE28A3B61300B4686E /* ReceptionForLinkupUITests.swift in Sources */,
-				4D4539FA28A3BA0C00B4686E /* ReceptionView.swift in Sources */,
-				4D4539E028A3B61300B4686E /* ReceptionForLinkupUITestsLaunchTests.swift in Sources */,
-				4DEFD0A328A48ABB00C4DCF9 /* ReceptionSubmitButtonView.swift in Sources */,
+				4DD44E7F28A79E59001F00FD /* ReceptionForLinkupUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,10 +601,10 @@
 			target = 4D4539BE28A3B60F00B4686E /* ReceptionForLinkup */;
 			targetProxy = 4D4539D028A3B61300B4686E /* PBXContainerItemProxy */;
 		};
-		4D4539DB28A3B61300B4686E /* PBXTargetDependency */ = {
+		4D505A8B28A75AD400143A8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4D4539BE28A3B60F00B4686E /* ReceptionForLinkup */;
-			targetProxy = 4D4539DA28A3B61300B4686E /* PBXContainerItemProxy */;
+			targetProxy = 4D505A8A28A75AD400143A8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -640,6 +660,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_VERIFY_BITCODE = NO;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -694,6 +715,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_VERIFY_BITCODE = NO;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -714,6 +736,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ReceptionForLinkup/Preview Content\"";
 				DEVELOPMENT_TEAM = 254G68X5D9;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ViewInspector\"",
+					"\"${PODS_ROOT}/Realm/core\"",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReceptionForLinkup/Info.plist;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
@@ -746,6 +776,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ReceptionForLinkup/Preview Content\"";
 				DEVELOPMENT_TEAM = 254G68X5D9;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ViewInspector\"",
+					"\"${PODS_ROOT}/Realm/core\"",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReceptionForLinkup/Info.plist;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
@@ -776,6 +814,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 254G68X5D9;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceptionForLinkupTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkupTests;
@@ -796,6 +836,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 254G68X5D9;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceptionForLinkupTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkupTests;
@@ -807,13 +849,13 @@
 			};
 			name = Release;
 		};
-		4D4539EA28A3B61300B4686E /* Debug */ = {
+		4D505A8D28A75AD400143A8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 254G68X5D9;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkupUITests;
@@ -825,10 +867,9 @@
 			};
 			name = Debug;
 		};
-		4D4539EB28A3B61300B4686E /* Release */ = {
+		4D505A8E28A75AD400143A8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 254G68X5D9;
@@ -873,11 +914,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D4539E928A3B61300B4686E /* Build configuration list for PBXNativeTarget "ReceptionForLinkupUITests" */ = {
+		4D505A8C28A75AD400143A8E /* Build configuration list for PBXNativeTarget "ReceptionForLinkupUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D4539EA28A3B61300B4686E /* Debug */,
-				4D4539EB28A3B61300B4686E /* Release */,
+				4D505A8D28A75AD400143A8E /* Debug */,
+				4D505A8E28A75AD400143A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -25,8 +25,8 @@ struct HistoryDeleteModalView: View {
                 Spacer()
                 Spacer()
                 SubmitButton(text: "削除する", color: .red) {
-                    presentationMode.wrappedValue.dismiss()
                     onDelete()
+                    presentationMode.wrappedValue.dismiss()
                 }
                 Spacer()
                 SubmitButton(text: "キャンセル", color: .blue) {
