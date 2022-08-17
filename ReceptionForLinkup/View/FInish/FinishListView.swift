@@ -16,13 +16,19 @@ struct FinishListView: View {
     @State var currentDate = Date()
     
     @State var timer :Timer?
-    private let interval = 30.0
+    private let interval = 5.0
     private func setTimer() {
-        isEditTimeMode = false
+//    isEditTimeMode = false
+        print("Timer crete and Start!!")
+        self.currentDate = Date()
         self.timer = Timer.scheduledTimer(withTimeInterval: self.interval, repeats: true) { _ in
             self.currentDate = Date()
             print(currentDate)
         }
+    }
+    private func stopTimer() {
+        self.timer?.invalidate()
+        print("stopTimer")
     }
 
     var body: some View {
@@ -81,7 +87,9 @@ struct FinishListView: View {
                             Text(user.inTimeToString())
                                 .modifier(columnModifer())
                             Spacer()
-                            Text("\(user.estimatedUseTime(now: currentDate))分")
+//                            Text("\(user.estimatedUseTime(now: currentDate))分")
+//                                .modifier(columnModifer())
+                            Text(showMinToHour(min: user.estimatedUseTime(now: currentDate)))
                                 .modifier(columnModifer())
                             Spacer()
                             Text("¥\(user.estimatedPayment(now: currentDate))")
@@ -123,6 +131,9 @@ struct FinishListView: View {
             isEditTimeMode = false
             setTimer()
         })
+        .onDisappear() {
+            stopTimer()
+        }
     }
 }
 

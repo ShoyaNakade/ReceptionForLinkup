@@ -7,7 +7,7 @@
 
 import XCTest
 @testable import ReceptionForLinkup
-//import ViewInspector
+import ViewInspector
 
 class ReceptionForLinkupUITestsLaunchTests: XCTestCase {
 

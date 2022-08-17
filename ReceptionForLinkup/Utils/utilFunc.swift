@@ -27,3 +27,13 @@ func nowTimeToString() -> String {
     
     return dateFormatter.string(from: Date())
 }
+
+func showMinToHour(min: Int) -> String {
+    let useHour = Int(floor(Double(min / 60) ))
+    let useMin = min % 60
+    if (useHour == 0) {
+        return "\(useMin)分"
+    } else {
+        return "\(useHour)時間\(useMin)分"
+    }
+}

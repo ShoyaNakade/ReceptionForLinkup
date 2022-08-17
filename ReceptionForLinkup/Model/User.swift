@@ -68,6 +68,9 @@ class User: Object, Identifiable{
         }
     }
     
+
+    
+    
     func estimatedPayment(now:Date) -> Int {
         var cost = 500
         let spanMin = Int(now.timeIntervalSince(self.inTime) / 60) // 1209600秒差

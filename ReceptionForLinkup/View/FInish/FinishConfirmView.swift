@@ -56,7 +56,9 @@ struct FinishConfirmView: View {
                 HStack {
                     Text("・ご利用時間")
                     Spacer()
-                    Text("\(currentUser.estimatedUseTime(now: currentOutDate))分")
+//                    Text("\(currentUser.estimatedUseTime(now: currentOutDate))分")
+//                        .foregroundColor(.blue)
+                    Text(showMinToHour(min: currentUser.estimatedUseTime(now: currentOutDate)))
                         .foregroundColor(.blue)
                 }
                 HStack {
