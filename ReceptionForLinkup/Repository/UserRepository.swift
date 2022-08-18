@@ -133,6 +133,9 @@ class UserRepository:UserRepositoryProtocol  {
         try! realm.write {
             realm.deleteAll()
         }
+        fetchAllUsers()
+        fetchBeingUser()
+        fetchFinishUser()
     }
     
 }

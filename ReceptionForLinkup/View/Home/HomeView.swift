@@ -20,8 +20,6 @@ struct HomeView<Repository: UserRepositoryProtocol>: View {
             ZStack {
                 ZStack(alignment:.bottomTrailing) {
                     VStack(spacing:spacing) {
-                        Text("test")
-                            .font(.body)
                         HomeTopHeader(personNum: $userRepository.beingUsersNum)
                         HStack(alignment: .center, spacing: 100){
                             HomeViewButton(text: "受付", color: .blue) {
