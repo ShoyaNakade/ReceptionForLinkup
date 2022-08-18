@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D28378E28ADB102007F87CA /* ChangeUserInfoViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D28378D28ADB102007F87CA /* ChangeUserInfoViewModelProtocol.swift */; };
+		4D28379028ADB99E007F87CA /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D28378F28ADB99E007F87CA /* UserRepositoryProtocol.swift */; };
+		4D28379228ADBDE7007F87CA /* UserRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D28379128ADBDE7007F87CA /* UserRepositoryStub.swift */; };
+		4D28379328ADC014007F87CA /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0B728A51A4A00C4DCF9 /* UserRepository.swift */; };
+		4D28379428ADC020007F87CA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F528A3B99F00B4686E /* HomeView.swift */; };
+		4D28379528ADC0A5007F87CA /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D28378F28ADB99E007F87CA /* UserRepositoryProtocol.swift */; };
+		4D28379628ADC0AB007F87CA /* HomeViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539FF28A3DCF200B4686E /* HomeViewButton.swift */; };
+		4D28379728ADC0F4007F87CA /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539FD28A3BAB800B4686E /* HistoryListView.swift */; };
+		4D28379828ADC14A007F87CA /* UserRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D28379128ADBDE7007F87CA /* UserRepositoryStub.swift */; };
+		4D28379928ADC14A007F87CA /* HomeTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D453A0128A3E58A00B4686E /* HomeTopHeader.swift */; };
+		4D28379A28ADC14A007F87CA /* ReceptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0D228A7066100C4DCF9 /* ReceptionViewModel.swift */; };
+		4D28379B28ADC14A007F87CA /* ReceptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F828A3BA0C00B4686E /* ReceptionView.swift */; };
+		4D28379C28ADC14A007F87CA /* ReceptionConfirmModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A428A4972E00C4DCF9 /* ReceptionConfirmModalView.swift */; };
+		4D28379D28ADC14A007F87CA /* ReceptionSubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A028A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift */; };
+		4D28379E28ADC14A007F87CA /* ReceptionTermView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0A828A4BDE300C4DCF9 /* ReceptionTermView.swift */; };
+		4D28379F28ADC14A007F87CA /* ChangeUserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0D628A713A200C4DCF9 /* ChangeUserInfoViewModel.swift */; };
+		4D2837A028ADC14A007F87CA /* ChangeUserInfoViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D28378D28ADB102007F87CA /* ChangeUserInfoViewModelProtocol.swift */; };
+		4D2837A128ADC14A007F87CA /* FinishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539FB28A3BA9D00B4686E /* FinishListView.swift */; };
+		4D2837A228ADC14A007F87CA /* FinishConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0AB28A4C02F00C4DCF9 /* FinishConfirmView.swift */; };
+		4D2837A328ADC14A007F87CA /* ChangeUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0B428A4F93300C4DCF9 /* ChangeUserInfoView.swift */; };
+		4D2837A428ADC14A007F87CA /* HistoryCSVConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0D828A7176800C4DCF9 /* HistoryCSVConfirmView.swift */; };
+		4D2837A528ADC14A007F87CA /* HistoryDeleteModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0B228A4F44D00C4DCF9 /* HistoryDeleteModalView.swift */; };
+		4D2837A628ADC14A007F87CA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539F228A3B6EB00B4686E /* User.swift */; };
+		4D2837A728ADC14A007F87CA /* CSVCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0BE28A62F1F00C4DCF9 /* CSVCreator.swift */; };
 		4D4539C328A3B60F00B4686E /* ReceptionForLinkupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539C228A3B60F00B4686E /* ReceptionForLinkupApp.swift */; };
 		4D4539C528A3B60F00B4686E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4539C428A3B60F00B4686E /* ContentView.swift */; };
 		4D4539C728A3B61200B4686E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4539C628A3B61200B4686E /* Assets.xcassets */; };
@@ -27,8 +51,6 @@
 		4DD34FB328A88A660006760E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD34FB228A88A660006760E /* RealmSwift */; };
 		4DD34FB528A88A700006760E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD34FB428A88A700006760E /* Realm */; };
 		4DD34FB728A88A700006760E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD34FB628A88A700006760E /* RealmSwift */; };
-		4DD34FB928A88BDF0006760E /* ContentTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD34FB828A88BDF0006760E /* ContentTestView.swift */; };
-		4DD34FBA28A88CE30006760E /* ContentTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD34FB828A88BDF0006760E /* ContentTestView.swift */; };
 		4DD34FBB28A88F160006760E /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0AD28A4C9B700C4DCF9 /* ThankYouView.swift */; };
 		4DD34FBC28A88FDB0006760E /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0BA28A5D13B00C4DCF9 /* extensions.swift */; };
 		4DD34FBD28A88FDB0006760E /* columnModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0B028A4EE7C00C4DCF9 /* columnModifer.swift */; };
@@ -55,6 +77,7 @@
 		4DEFD0D328A7066100C4DCF9 /* ReceptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0D228A7066100C4DCF9 /* ReceptionViewModel.swift */; };
 		4DEFD0D728A713A200C4DCF9 /* ChangeUserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0D628A713A200C4DCF9 /* ChangeUserInfoViewModel.swift */; };
 		4DEFD0D928A7176800C4DCF9 /* HistoryCSVConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFD0D828A7176800C4DCF9 /* HistoryCSVConfirmView.swift */; };
+		4DF0E9EA28ADA5A50003D3C7 /* utilFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0E9E928ADA5A50003D3C7 /* utilFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +98,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D28378D28ADB102007F87CA /* ChangeUserInfoViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserInfoViewModelProtocol.swift; sourceTree = "<group>"; };
+		4D28378F28ADB99E007F87CA /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
+		4D28379128ADBDE7007F87CA /* UserRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryStub.swift; sourceTree = "<group>"; };
 		4D4539BF28A3B60F00B4686E /* ReceptionForLinkup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceptionForLinkup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4539C228A3B60F00B4686E /* ReceptionForLinkupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupApp.swift; sourceTree = "<group>"; };
 		4D4539C428A3B60F00B4686E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,7 +117,6 @@
 		4D505A8428A75AD400143A8E /* ReceptionForLinkupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptionForLinkupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D505A8828A75AD400143A8E /* ReceptionForLinkupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4DD34F1B28A861700006760E /* ReceptionForLinkupViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionForLinkupViewTest.swift; sourceTree = "<group>"; };
-		4DD34FB828A88BDF0006760E /* ContentTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTestView.swift; sourceTree = "<group>"; };
 		4DEFD0A028A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionSubmitButtonView.swift; sourceTree = "<group>"; };
 		4DEFD0A428A4972E00C4DCF9 /* ReceptionConfirmModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionConfirmModalView.swift; sourceTree = "<group>"; };
 		4DEFD0A628A49EF100C4DCF9 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
@@ -114,6 +139,7 @@
 		4DEFD0D828A7176800C4DCF9 /* HistoryCSVConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCSVConfirmView.swift; sourceTree = "<group>"; };
 		4DEFD0DB28A723BF00C4DCF9 /* UserModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelTests.swift; sourceTree = "<group>"; };
 		4DEFD0DD28A726B300C4DCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DF0E9E928ADA5A50003D3C7 /* utilFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +209,6 @@
 				4D4539EC28A3B65A00B4686E /* Model */,
 				4D4539C228A3B60F00B4686E /* ReceptionForLinkupApp.swift */,
 				4D4539C428A3B60F00B4686E /* ContentView.swift */,
-				4DD34FB828A88BDF0006760E /* ContentTestView.swift */,
 				4D4539C628A3B61200B4686E /* Assets.xcassets */,
 				4D4539C828A3B61200B4686E /* Preview Content */,
 			);
@@ -201,6 +226,7 @@
 		4D4539D228A3B61300B4686E /* ReceptionForLinkupTests */ = {
 			isa = PBXGroup;
 			children = (
+				4DF0E9E828ADA57A0003D3C7 /* Utils */,
 				4DEFD0DD28A726B300C4DCF9 /* Info.plist */,
 				4DEFD0DA28A7236E00C4DCF9 /* Model */,
 			);
@@ -231,6 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				4DEFD0B728A51A4A00C4DCF9 /* UserRepository.swift */,
+				4D28378F28ADB99E007F87CA /* UserRepositoryProtocol.swift */,
+				4D28379128ADBDE7007F87CA /* UserRepositoryStub.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -349,6 +377,7 @@
 			isa = PBXGroup;
 			children = (
 				4DEFD0D628A713A200C4DCF9 /* ChangeUserInfoViewModel.swift */,
+				4D28378D28ADB102007F87CA /* ChangeUserInfoViewModelProtocol.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -359,6 +388,14 @@
 				4DEFD0DB28A723BF00C4DCF9 /* UserModelTests.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4DF0E9E828ADA57A0003D3C7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4DF0E9E928ADA5A50003D3C7 /* utilFunction.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -518,7 +555,6 @@
 				4D4539FE28A3BAB800B4686E /* HistoryListView.swift in Sources */,
 				4DEFD0A528A4972E00C4DCF9 /* ReceptionConfirmModalView.swift in Sources */,
 				4DEFD0D928A7176800C4DCF9 /* HistoryCSVConfirmView.swift in Sources */,
-				4DD34FB928A88BDF0006760E /* ContentTestView.swift in Sources */,
 				4D4539F928A3BA0C00B4686E /* ReceptionView.swift in Sources */,
 				4DEFD0A128A489CF00C4DCF9 /* ReceptionSubmitButtonView.swift in Sources */,
 				4D4539F628A3B99F00B4686E /* HomeView.swift in Sources */,
@@ -533,7 +569,10 @@
 				4D453A0228A3E58A00B4686E /* HomeTopHeader.swift in Sources */,
 				4DEFD0BF28A62F1F00C4DCF9 /* CSVCreator.swift in Sources */,
 				4DEFD0B528A4F93300C4DCF9 /* ChangeUserInfoView.swift in Sources */,
+				4D28378E28ADB102007F87CA /* ChangeUserInfoViewModelProtocol.swift in Sources */,
 				4D453A0028A3DCF200B4686E /* HomeViewButton.swift in Sources */,
+				4D28379028ADB99E007F87CA /* UserRepositoryProtocol.swift in Sources */,
+				4D28379228ADBDE7007F87CA /* UserRepositoryStub.swift in Sources */,
 				4DEFD0B828A51A4A00C4DCF9 /* UserRepository.swift in Sources */,
 				4DEFD0AE28A4C9B700C4DCF9 /* ThankYouView.swift in Sources */,
 				4DEFD0D728A713A200C4DCF9 /* ChangeUserInfoViewModel.swift in Sources */,
@@ -545,6 +584,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D505A7F28A73E8B00143A8E /* UserModelTests.swift in Sources */,
+				4DF0E9EA28ADA5A50003D3C7 /* utilFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +592,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D28379828ADC14A007F87CA /* UserRepositoryStub.swift in Sources */,
+				4D28379928ADC14A007F87CA /* HomeTopHeader.swift in Sources */,
+				4D28379A28ADC14A007F87CA /* ReceptionViewModel.swift in Sources */,
+				4D28379B28ADC14A007F87CA /* ReceptionView.swift in Sources */,
+				4D28379C28ADC14A007F87CA /* ReceptionConfirmModalView.swift in Sources */,
+				4D28379D28ADC14A007F87CA /* ReceptionSubmitButtonView.swift in Sources */,
+				4D28379E28ADC14A007F87CA /* ReceptionTermView.swift in Sources */,
+				4D28379F28ADC14A007F87CA /* ChangeUserInfoViewModel.swift in Sources */,
+				4D2837A028ADC14A007F87CA /* ChangeUserInfoViewModelProtocol.swift in Sources */,
+				4D2837A128ADC14A007F87CA /* FinishListView.swift in Sources */,
+				4D2837A228ADC14A007F87CA /* FinishConfirmView.swift in Sources */,
+				4D2837A328ADC14A007F87CA /* ChangeUserInfoView.swift in Sources */,
+				4D2837A428ADC14A007F87CA /* HistoryCSVConfirmView.swift in Sources */,
+				4D2837A528ADC14A007F87CA /* HistoryDeleteModalView.swift in Sources */,
+				4D2837A628ADC14A007F87CA /* User.swift in Sources */,
+				4D2837A728ADC14A007F87CA /* CSVCreator.swift in Sources */,
+				4D28379728ADC0F4007F87CA /* HistoryListView.swift in Sources */,
+				4D28379628ADC0AB007F87CA /* HomeViewButton.swift in Sources */,
+				4D28379528ADC0A5007F87CA /* UserRepositoryProtocol.swift in Sources */,
+				4D28379428ADC020007F87CA /* HomeView.swift in Sources */,
+				4D28379328ADC014007F87CA /* UserRepository.swift in Sources */,
 				4DD34FBC28A88FDB0006760E /* extensions.swift in Sources */,
 				4DD34FBD28A88FDB0006760E /* columnModifer.swift in Sources */,
 				4DD34FBE28A88FDB0006760E /* utilFunc.swift in Sources */,
@@ -559,7 +620,6 @@
 				4DD34FC028A88FDB0006760E /* SubmitButton.swift in Sources */,
 				4DD34F1C28A861700006760E /* ReceptionForLinkupViewTest.swift in Sources */,
 				4DD44E7F28A79E59001F00FD /* ReceptionForLinkupUITestsLaunchTests.swift in Sources */,
-				4DD34FBA28A88CE30006760E /* ContentTestView.swift in Sources */,
 				4DD34FBB28A88F160006760E /* ThankYouView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -734,7 +794,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -775,7 +835,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gritup.ReceptionForLinkup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

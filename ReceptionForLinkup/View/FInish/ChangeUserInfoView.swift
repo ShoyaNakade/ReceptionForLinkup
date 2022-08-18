@@ -8,12 +8,12 @@
 import SwiftUI
 import RealmSwift
 
-struct ChangeUserInfoView: View {
+struct ChangeUserInfoView<ViewModel:ChangeUserInfoViewModelProtocol>: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    @ObservedObject var viewModel: ChangeUserInfoViewModel
+    @ObservedObject private var viewModel: ViewModel
     
     init(currentUser: User) {
-        viewModel = ChangeUserInfoViewModel(currentUser: currentUser)
+        viewModel = ChangeUserInfoViewModel(currentUser: currentUser) as! ViewModel
     }
     
     var body: some View {
@@ -75,7 +75,7 @@ struct ChangeUserInfoView: View {
 struct ChangeTimeView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ChangeUserInfoView(currentUser: User())
+            ChangeUserInfoView<ChangeUserInfoViewModel>(currentUser: User())
         }.navigationViewStyle(.stack)
             .previewInterfaceOrientation(.landscapeLeft)
     }

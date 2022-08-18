@@ -8,8 +8,8 @@ import RealmSwift
 import Foundation
 import SwiftUI
 
-class UserRepository:ObservableObject  {
-    let realm = try! Realm()
+class UserRepository:UserRepositoryProtocol  {
+    private let realm = try! Realm()
     @Published var allUsers:[User] = []
     @Published var beingUsers:[User] = []
     @Published var beingUsersNum:Int = 0
@@ -136,3 +136,5 @@ class UserRepository:ObservableObject  {
     }
     
 }
+
+

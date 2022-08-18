@@ -7,15 +7,21 @@
 
 import SwiftUI
 
-struct HomeView: View {
-    @ObservedObject var userRepository = UserRepository()
+struct HomeView<Repository: UserRepositoryProtocol>: View {
+    @ObservedObject var userRepository:Repository
     private let spacing = UIScreen.main.bounds.height / 10
+    
+    init(repository: Repository) {
+        userRepository = repository
+    }
     
     var body: some View {
         NavigationView {
             ZStack {
                 ZStack(alignment:.bottomTrailing) {
                     VStack(spacing:spacing) {
+                        Text("test")
+                            .font(.body)
                         HomeTopHeader(personNum: $userRepository.beingUsersNum)
                         HStack(alignment: .center, spacing: 100){
                             HomeViewButton(text: "受付", color: .blue) {
@@ -48,7 +54,7 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView(repository: UserRepositoryStub())
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

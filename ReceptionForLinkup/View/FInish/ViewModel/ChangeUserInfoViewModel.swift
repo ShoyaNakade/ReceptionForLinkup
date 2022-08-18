@@ -8,7 +8,7 @@
 import Foundation
 import RealmSwift
 
-class ChangeUserInfoViewModel: ObservableObject {
+class ChangeUserInfoViewModel: ChangeUserInfoViewModelProtocol {
     @Published var mCurrentUser: User
     @Published var mPersons:Int
     @Published var mPass:Bool

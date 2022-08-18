@@ -19,6 +19,7 @@ struct ThankYouView: View {
         VStack(spacing:50) {
             Text("ありがとうございました！\nまたのご利用をお待ちしています")
                 .font(.largeTitle)
+                .id("thank_text")
             SubmitButton(text: "完了", color: .green) {
                 presentationMode.wrappedValue.dismiss()
                 onConfirm()

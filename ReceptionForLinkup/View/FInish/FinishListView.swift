@@ -102,7 +102,7 @@ struct FinishListView: View {
                     if isEditTimeMode {
                         Spacer()
                         NavigationLink {
-                            ChangeUserInfoView(currentUser: user)
+                            ChangeUserInfoView<ChangeUserInfoViewModel>(currentUser: user)
                         } label: {
                             Image(systemName: "clock.arrow.circlepath")
                                 .foregroundColor(.red)

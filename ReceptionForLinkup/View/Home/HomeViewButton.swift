@@ -41,10 +41,10 @@ struct HomeViewButton<Content: View>: View {
 
 
 
-struct HomeVIewButton_Previews: PreviewProvider {
+struct HomeViewButton_Previews: PreviewProvider {
     static var previews: some View {
         HomeViewButton(text: "test", color: .red) {
-            HomeView()
+            HomeView(repository: UserRepository())
         }
         .previewInterfaceOrientation(.landscapeLeft)
     }
